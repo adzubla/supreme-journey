@@ -1,0 +1,64 @@
+{
+  "data": {
+    "brand": [
+      {
+        "name": "Big Banks",
+        "companies": [
+          {
+            "name": "Brazil Campany LTDA",
+            "cnpjNumber": "12345678901234",
+            "contractors": [
+              {
+                "name": "Brazil Contractor LTDA",
+                "cnpjNumber": "14684579163",
+                "bankingAgents": [
+                  {
+                    "identification": {
+                      "corporationName": "Salt Mount S/A",
+                      "groupName": "HyperMarkets",
+                      "cnpjNumber": "50870366190"
+                    },
+                    "postalAddress": {
+                      "streetType": "Alameda",
+                      "streetName": "Santos",
+                      "buildingNumber": "1041",
+                      "additionalInfo": null,
+                      "districtName": "Cerqueira César",
+                      "townName": "São Paulo",
+                      "countrySubDivision": "SP",
+                      "postCode": "01419-002"
+                    },
+                    "services": {
+                      "codes": [
+                        "ABERTURA_CONTAS",
+                        "RECEBIMENTOS_PAGAMENTOS_TRANSFERENCIAS_ELETRONICAS",
+                        "RECEBIMENTOS_PAGAMENTOS_QUALQUER_NATUREZA",
+                        "ORDEM_PAGAMENTO",
+                        "OPERACOES_CREDITO",
+                        "RECEBIMENTOS_PAGAMENTOS_LETRAS_CAMBIO",
+                        "CARTAO_CREDITO",
+                        "OPERACOES_CAMBIO"
+                      ],
+                      "additionalInfo": null
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/channels/v1/banking-agents",
+    "first": "https://api.banco.com.br/open-banking/channels/v1/banking-agents",
+    "prev": null,
+    "next": null,
+    "last": "https://api.banco.com.br/open-banking/channels/v1/banking-agents"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}
