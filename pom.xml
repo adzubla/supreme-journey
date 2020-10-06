@@ -104,7 +104,6 @@
 								<modelPackage>com.example.model</modelPackage>
 								<apiPackage>com.example.api</apiPackage>
 								<invokerPackage>com.example.invoker</invokerPackage>
-								<useBeanValidation>false</useBeanValidation>
 								<java8>true</java8>
 								<dateLibrary>java8</dateLibrary>
 								<library>spring-mvc</library>
