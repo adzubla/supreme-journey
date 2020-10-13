@@ -697,7 +697,9 @@ components:
             - brand
           properties:
             brand:
-                $ref: '#/components/schemas/PhoneChannelsBrand'
+                type: array
+                items:
+                  $ref: '#/components/schemas/PhoneChannelsBrand'
         links:
           $ref: '#/components/schemas/Links'
         meta:
