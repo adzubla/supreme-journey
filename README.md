@@ -11,4 +11,4 @@ postPhoneChannels
     curl -X POST \
         -H "Content-Type: application/json" \
         http://localhost:8080/phone-channels/ \
-        -d @sample/phone-channels.json
+        -d @sample/channels/phone-channels.json
