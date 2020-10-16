@@ -67,6 +67,19 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ResponsePhoneChannelsList'
+    post:
+      tags:
+        - "Channels"
+      summary: "Atualiza a lista de canais telefônicos de atendimento da instituição financeira."
+      operationId: "postPhoneChannels"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ResponsePhoneChannelsList'
+      responses:
+        '201':
+          description: Created
 components:
   schemas:
     ResponseBankingAgentsList:
