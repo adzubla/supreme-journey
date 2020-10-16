@@ -1,7 +1,7 @@
 {
   "data": {
     "brand": {
-      "name": "Organização A",
+      "name": "OrganizacaoA",
       "companies": [
         {
           "name": "Empresa A1",
@@ -16,13 +16,13 @@
                   {
                     "countryCode": "55",
                     "areaCode": "14",
-                    "number": "35721199",
+                    "number": "0003-5721199",
                     "additionalInfo": "NA"
                   },
                   {
                     "countryCode": "55",
                     "areaCode": "14",
-                    "number": "997865532",
+                    "number": "0099-7865532",
                     "additionalInfo": "NA"
                   }
                 ]
